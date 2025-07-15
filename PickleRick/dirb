@@ -1,0 +1,53 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Sat Jul 27 19:08:27 2024
+URL_BASE: http://10.10.122.234/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.122.234/ ----
+==> DIRECTORY: http://10.10.122.234/assets/
++ http://10.10.122.234/index.html (CODE:200|SIZE:1062)
++ http://10.10.122.234/robots.txt (CODE:200|SIZE:17)
++ http://10.10.122.234/server-status (CODE:403|SIZE:278)
+
+---- Entering directory: http://10.10.122.234/assets/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+-----------------
+END_TIME: Sat Jul 27 19:11:22 2024
+DOWNLOADED: 4612 - FOUND: 3
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb
+START_TIME: Sat Jul 27 19:13:27 2024
+URL_BASE: http://10.10.122.234/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stoping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.122.234/ ----
+==> DIRECTORY: http://10.10.122.234/assets/
++ http://10.10.122.234/index.html (CODE:200|SIZE:1062)
++ http://10.10.122.234/robots.txt (CODE:200|SIZE:17)
++ http://10.10.122.234/server-status (CODE:403|SIZE:278)
+
+---- Entering directory: http://10.10.122.234/assets/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)

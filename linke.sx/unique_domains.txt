@@ -1,0 +1,17 @@
+authelia.linke.sx
+dali.linke.sx
+dokuwiki.linke.sx
+element.linke.sx
+espe.linke.sx
+forgejo.linke.sx
+hedgedoc.linke.sx
+linke.sx
+owncloud.linke.sx
+postgresql.linke.sx
+static.requarks.io
+synapse.linke.sx
+vikunja.linke.sx
+wiki-js.linke.sx
+www.authelia.com
+zackeneule.linke.sx
+zeitbild.linke.sx

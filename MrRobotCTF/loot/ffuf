@@ -1,0 +1,27 @@
+ :: Method           : GET
+ :: URL              : http://10.10.192.6/FUZZ
+ :: Wordlist         : FUZZ: /home/janosch/git/labs/MrRobotCTF/loot/fsocity.dic
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: all
+ :: Filter           : Response status: 404
+________________________________________________
+
+images                  [Status: 301, Size: 234, Words: 14, Lines: 8, Duration: 57ms]
+css                     [Status: 301, Size: 231, Words: 14, Lines: 8, Duration: 38ms]
+image                   [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 702ms]
+license                 [Status: 200, Size: 309, Words: 25, Lines: 157, Duration: 39ms]
+video                   [Status: 301, Size: 233, Words: 14, Lines: 8, Duration: 38ms]
+feed                    [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 646ms]
+audio                   [Status: 301, Size: 233, Words: 14, Lines: 8, Duration: 38ms]
+admin                   [Status: 301, Size: 233, Words: 14, Lines: 8, Duration: 38ms]
+blog                    [Status: 301, Size: 232, Words: 14, Lines: 8, Duration: 38ms]
+Image                   [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 616ms]
+intro                   [Status: 200, Size: 516314, Words: 2076, Lines: 2028, Duration: 44ms]
+rss                     [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 646ms]
+login                   [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 674ms]
+readme                  [Status: 200, Size: 64, Words: 14, Lines: 2, Duration: 40ms]
+Year201120102009200820072006200520042003200220012000199919981997199619951994199319921991199019891988198719861985198419831982198119801979197819771976197519741973197219711970196919681967196619651964196319621961196019591958195719561955195419531952195119501949194819471946194519441943194219411940193919381937193619351934193319321931193019291928192719261925192419231922192119201919191819171916191519141913191219111910190919081907190619051904190319021901 [Status: 403, Size: 657, Words: 16, Lines: 10, Duration: 38ms]
+
