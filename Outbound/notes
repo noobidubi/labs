@@ -1,0 +1,15 @@
+- Found exploit on Metaspoit
+	multi/http/roundcube_auth_rce_cve_2025_49113
+- Logged in as www-data
+	used "su" command in the shell to change user to tyler(using the provided creds)
+- Found roundcube config at /var/www/html/roundcube/config/config.inc.php
+	file contains creds for mysql server(saved file in ./loot)
+- found and forwarded port 3306(MySQL) with meterpreter
+	COMMANDS:	"ss -tulpen" shows all open ports. Found 3306(default port for MySQL) running at 127.0.0.1
+				"meterpreter> portfwd add -l 3306 -p 3306 -r 127.0.0.1" forwards port 3306 to 3306 on my local machine
+				"mysql -h 127.0.0.1 -u roundcube -pRCDBPass2025 roundcube" connects to the MySQL Database
+- saved findings in loot/db_treasures
+	decrypted session logs from session Table and found jacob's encrypted password(images/Cyberchef.jpg)
+- found encryption and decryption algorithm on the roundcube forum/github
+- modified the php code with chatgpt so I can run the decryption algorithm standalone and saved to loot/decrypt.php
+- found jacob's SSH password in his emails(images/roundcube.jpg)
